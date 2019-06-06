@@ -1,0 +1,851 @@
+body{
+	margin: 0px;
+	font-family: arial;
+}
+
+.paddingHeader{
+	width: 100%;
+	height: 169px;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+
+.button{
+	background-color: #1DA1F2;
+	border-color: #398439;
+	border-radius: 10%;
+	width: 100px;
+	height: 30px;
+	color: white;
+	font-weight: bold;
+}
+
+input{
+	border-radius: 5px;
+}
+
+.icon{
+	width: 20px;
+}
+
+.left{
+	padding-left: 20px;
+}
+
+/*HEADER*/
+.header{
+	width: 100%;
+	height: 26%;
+	background-color: #1DA1F2;
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+}
+
+.header h1{
+	font-family: cursive;
+	font-size: 50px;
+	color: black;
+	margin: 0px;
+	padding: 20px;
+}
+
+.container{
+	display: -webkit-flex;
+	display: flex;
+	background-color: #1a90db/*#1fa9ff*/;
+}
+
+.nav{
+	padding-left: 10px;
+	-webkit-flex: 3;
+	flex: 3;
+}
+
+.search{
+	-webkit-flex: 2;
+	flex: 2;
+	padding-top: 20px;
+}
+
+#search{
+	width: 300px;
+	height: 25px;
+	border-radius: 5px;
+}
+
+.listSearch{
+	text-decoration: none;
+	color: black;
+}
+
+.listSearch:hover{
+	font-weight: bold;
+}
+
+.dataSearch{
+	border: 1px solid grey;
+	padding: 15px;
+}
+
+#pictSearch{
+	width: 30px;
+}
+
+#btnSearch{
+	background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.login{
+	-webkit-flex: 1;
+	flex: 1;
+}
+
+.login img{
+	width: 30px;
+	padding-left: 10px;
+}
+
+.hidden{
+	opacity: 0;
+}
+
+.none{
+	display: none;
+}
+
+#signUp{
+	color: purple;
+	text-decoration: underline;
+}
+
+/*DIV BODY, ISINYA ARTICLE DAN ASIDE*/
+.flex-container{
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+.flex-container2{
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+/*ARTICLE (ISI FORM)*/
+.article{
+	-webkit-flex: 3;
+	flex: 3;
+	padding: 20px;
+	border: 1px solid grey;
+	background-color: #d7dee8;
+}
+
+.article2{
+	-webkit-flex: 4;
+	flex: 4;
+	padding: 20px;
+	border: 1px solid grey;
+	order: 2;
+}
+
+.article h2{
+	color: blue;
+	padding-left: 10px;
+}
+
+.pict{
+	-webkit-flex: 1;
+	flex: 1;
+	padding: 20px;
+}
+
+.pict img{
+	width: 250px;
+	float: left;
+	padding-right: 20px;
+}
+
+.content{
+	display: -webkit-flex;
+	display: flex;
+}
+
+.contentPage1{
+	display: -webkit-flex;
+	display: flex;
+	width: 700px;
+	margin: 0px 100px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+
+.content1{
+	border: 1px solid grey;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+.admin{
+	border-style: none;
+	background-color: transparent;
+	float: right;
+	margin-right: 30px;
+}
+
+.textArticle{
+	text-align: justify;
+	padding: 20px;
+}
+
+.pictArticle{
+	width: 300px;
+	padding: 20px;
+	display: block;
+	margin: 0 auto;
+}
+
+.border{
+	border: 1px solid grey;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.border h1{
+	padding-left: 20px;
+}
+
+.border h2{
+	padding-left: 20px;
+}
+
+.text{
+	-webkit-flex: 3;
+	flex: 3;
+	padding: 10px;
+	text-align: justify;
+}
+
+.text h3{
+	margin: 0px;
+	padding-bottom: 10px;
+}
+
+.text a{
+	text-decoration: none;
+	color: blue;
+}
+
+.text a:hover{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.text a:click{
+	text-decoration: none;
+	color: purple;
+}
+
+.text select{
+	border-style: none;
+	float: right;
+	margin-right: 10px;
+}
+
+.comment{
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	height: auto;
+	padding-left: 20px;
+}
+
+.comment p{
+	display: inline;
+}
+
+.foto img{
+	width: 50px;
+}
+
+.foto{
+	-webkit-flex: 1;
+	flex: 1;
+	padding: 20px;
+	border-right: 1px solid grey;
+}
+
+.komen{
+	-webkit-flex: 5;
+	flex: 5;
+	padding: 20px;
+}
+
+.komen select{
+	border-style: none;
+	float: right;
+	margin-right: 30px;
+}
+
+.komen img{
+	width: 30px;
+}
+
+.komen div{
+	width: 500px;
+	height: 80px;
+	border: 1px solid grey;
+}
+
+.topArticle{
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	height: auto;
+	padding-left: 20px;
+}
+
+.titleArticle{
+	-webkit-flex: 5;
+	flex: 5;
+	padding: 20px;
+}
+
+.star{
+	-webkit-flex: 0.5;
+	flex: 0.5;
+	padding: 20px;
+	margin-right: 20px;
+}
+
+.star img{
+	width: 30px;
+}
+
+.star img:hover{
+	opacity: 0.5;
+}
+
+.report{
+	float: right;
+	padding: 20px;
+	margin-right: 20px;
+	display: inline;
+}
+
+.report img{
+	width: 30px;
+}
+
+.report img:hover{
+	opacity: 0.5;
+}
+
+.table {
+    border-collapse: collapse;
+    background-color: red;
+}
+
+.table table, td, th {
+    border: 1px solid black;
+}
+
+.post{
+	background-color: #1DA1F2;
+	height: 30px;
+}
+
+.poster{
+	border-bottom: 1px solid grey;
+	padding: 20px;
+}
+
+.poster img{
+	display: inline;
+	width: 50px;
+}
+
+.poster p{
+	display: inline;
+}
+
+.contentPage2{
+	margin-left: 100px;
+}
+
+.arc{
+	border: 1px solid grey;
+	width: 200px;
+	height: auto;
+	text-align: center;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+.arc img{
+	width: 200px;
+	text-align: center;
+}
+
+.arc a{
+	text-decoration: none;
+	color: black;
+}
+
+.arc a:hover{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.arc a:click{
+	text-decoration: none;
+	color: purple;
+}
+
+.profile{
+	padding-left: 50px;
+	padding-top: 50px;
+	margin: 0px 10px;
+	width: 100%;
+}
+
+.profile table, tr, td{
+	border-style: none;
+}
+
+.profile tr td:first-child{
+	font-weight: bold;
+}
+
+.profile img{
+	width: 400px;
+	padding-bottom: 30px;
+	display: block;
+}
+
+.profile div{
+	width: 500px;
+	text-align: justify;
+}
+
+.right{
+	float: right;
+	width: 100px;
+}
+
+.reputasi{
+	width: 100%;
+	text-align: left;
+}
+
+.round{
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	font-weight: bold;
+}
+
+.round2{
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	font-weight: bold;
+}
+
+.round:hover{
+	opacity: 0.5;
+}
+
+.good{
+	background-color: green;
+}
+
+.mid{
+	background-color: yellow;
+}
+
+.bad{
+	background-color: red;
+}
+
+.user{
+	text-decoration: none;
+	color: black;
+}
+
+.user:hover{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.user:click{
+	text-decoration: none;
+	color: purple;
+}
+
+.context img{
+	width: 250px;
+	padding: 20px;
+}
+
+.pp img{
+	width: 40px;
+}
+
+.pp a:hover img{
+	opacity: 0.5;
+}
+
+.pp h4{
+	margin: 10px;
+	padding-bottom: 50px;
+	display: inline;
+}
+
+.context td:last-child img{
+	width: 20px;
+}
+
+#unblock{
+	margin-right: 400px;
+	margin-top: 20px;
+	background-color: #398439;
+	border-color: #398439;
+	border-radius: 10%;
+	width: 100px;
+	height: 30px;
+	color: white;
+	font-weight: bold;
+}
+
+#delete{
+	margin-top: 20px;
+	background-color: #d9534f;
+	border-color: #d9534f;
+	border-radius: 10%;
+	width: 100px;
+	height: 30px;
+	color: white;
+	font-weight: bold;
+}
+
+#report{
+	color: black;
+}
+
+.report{
+	text-decoration: none;
+	color: black;
+}
+
+.save{
+	margin-right: 400px;
+	margin-top: 20px;
+	background-color: #398439;
+	border-color: #398439;
+	border-radius: 10%;
+	width: 100px;
+	height: 30px;
+	color: white;
+	font-weight: bold;
+}
+
+/*ASIDE (BAGIAN SAMPING UNTUK LOGIN)*/
+.aside{
+	-webkit-flex: 1;
+	flex: 1;
+	border: 1px solid grey;
+	padding: 20px;
+}
+
+.aside2{
+	-webkit-flex: 1;
+	flex: 1;
+	border: 1px solid grey;
+	padding: 20px;
+	order: 1;
+}
+
+.aside h1{
+	text-align: center;
+}
+
+.aside h2{
+	color: purple;
+}
+
+.asideSignIn{
+	-webkit-flex: 2;
+	flex: 2;
+	border: 1px solid grey;
+	padding: 20px;
+}
+
+.asideSignIn h2{
+	color: red;
+}
+
+.error{
+	color: red;
+	font-size: 12px;
+}
+
+.aside2 a{
+	text-decoration: none;
+	color: black;
+	padding-left: 20px;
+}
+
+.aside2 a:hover{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.aside2 a:click{
+	text-decoration: none;
+	color: purple;
+}
+
+/*KETIK POSTINGAN*/
+.type{
+	width: 100%;
+	height: auto;
+	padding: 20px 10px 10px 10px;
+}
+
+.type input{
+	margin-top: 20px;
+	height: 25px;
+}
+
+.type textarea{
+	margin: 20px;
+}
+
+.pictureType{
+	width: 80px;
+}
+
+#title{
+	margin-left: 20px;
+	font-style: italic;
+	width: 200px;
+	font-weight: bold;
+}
+
+.border ul{
+	background-color: #111;
+	list-style-type: none;
+}
+
+.border ul li{
+	float: left;
+	padding: 2px;
+	display: block;
+}
+
+.border ul li:last-child{
+	margin-right: 30px;
+	float: right;
+}
+
+.border ul li:last-child button{
+	width: auto;
+	height: auto;
+}
+
+.border ul li button{
+	width: 25px;
+	height: 25px;
+}
+
+.textAlign{
+	width: 15px;
+	padding: 0px;
+}
+
+#content{
+	font-family: arial; 
+	font-size: 15px; 
+	display: block; 
+	resize: none; 
+	width:1300px; 
+	height: 800px;
+	padding: 10px;
+}
+
+.toolbar{
+	background-color: lightgrey;
+}
+
+/*FOOTER*/
+.footer{
+	height: 20%;
+	width: 100%;
+	background-color: #d7dee8;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.footer h4{
+	padding-top: 20px;
+}
+
+.footer img{
+	width: 30px;
+	padding-right: 10px;
+}
+
+/*MODAL CONTAINER*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+.modal-header h2{
+	text-align: center;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #1DA1F2;
+    color: white;
+}
+
+.modal-body {
+	padding: 20px;
+}
+
+/*TREE LIST ACCOUNT MANAGEMENT ADMIN*/
+.content2 dl dt button{
+	width: 15px;
+	height: 15px;
+	font-size: 10px;
+	padding: 0px;
+}
+
+.content2 dt:first-child{
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.content2 dt:last-child{
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.expand a{
+	text-decoration: none;
+	color: black;
+}
+
+.expand a:hover{
+	font-weight: bold;
+}
+
+/*HEADER NAVIGATION*/
+.dropbtn {
+    background-color: #1a90db;
+    color: black;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #137DBF;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover, .dropdown:focus {
+    background-color: #137DBF;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+.unshow {display:none;}
